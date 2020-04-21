@@ -1,0 +1,458 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+
+	background-image: url('images/index/background.jpg');
+	background-size: cover;
+	background-repeat: none-repeat;
+}
+
+.st-container{
+	  max-width: 1200px;
+      margin:0 auto;
+}
+
+
+.st-header{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.st-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.st-nav ul li{
+	display: inline;
+	list-style: none;
+	padding: 40px;
+	margin: 20px 20px;
+}
+
+
+.st-logo{
+	float: left;
+}
+.st-nav ul li a{
+	text-decoration: none;
+}
+.st-nav ul li.home a{
+	color:yellow;
+}
+.st-nav ul li.contact a{
+	color:yellow;
+}
+.st-nav ul li.home{
+	padding: 10px 20px;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 30px;
+	line-height: 60px;
+    background-image: url('images/index/home.png');
+	background-repeat: no-repeat;
+	background-size: cover  ;
+    background-position: center;
+}
+
+.st-nav ul li.contact{
+    padding: 10px 20px;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 30px;
+	line-height: 60px;
+	background-image: url('images/index/contact.png');
+	background-repeat: no-repeat;
+	background-size: cover  ;
+    background-position: center;
+}
+
+.st-nav ul li.about{
+	padding: 10px 20px;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 30px;
+	line-height: 60px;
+	background-image: url('images/index/pencil.jpg');
+	background-repeat: no-repeat;
+	background-size: cover  ;
+    background-position: center;
+}
+.st-nav ul li.achieve{
+	padding: 10px 20px;
+	font-size: 1.2em;
+	float: right;
+	margin-right: 30px;
+	text-decoration: none;
+	line-height: 60px;
+	background-image: url('images/index/achievement.png');
+	background-repeat: no-repeat;
+	background-size: cover  ;
+    background-position: center;
+}
+
+.st-nav a:hover{
+	color:#3e99ff;
+}
+
+
+.st-image{
+	border-radius:50%;
+}
+
+.st-intro{
+	margin-top: 60px;
+	margin-left: 150px;
+}
+
+.st-intro-text
+{
+	font-weight: bold;
+	font-size: 1.5em;
+    color: #000099;
+}
+article{
+	color: #006600;
+	font-size: 1.8em;
+	margin-top: 50px;
+	padding-right: 50px;
+}
+article h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #800000;
+	font-size:2em;
+}
+
+footer {
+	height: 40px;
+	padding: 20px;
+	color: red;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.st-music{
+	width: 140px;
+	height: 140px;
+	margin: 60px auto;
+	border-radius: 50%;
+	background-image: url('images/index/play.jfif');
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+}
+.st-music:hover{
+	transform: rotate(360deg);
+}
+
+
+.st-music a{
+	padding: 33px;
+	text-decoration: none;
+	line-height: 30px;
+	transition: 5s;
+}
+
+
+.st-music a:hover{
+	color: red;
+
+}
+
+/*achievement*/
+.st-a1 {
+	float: left;
+	margin-right: 10px;
+   margin-top: 30px;
+	margin-left:30px;
+	margin-bottom: 30px;
+}
+
+.para{
+	font-size: 2em;
+	padding: 10px;
+	color: #800000;
+}
+/*contacts*/
+ .st-comm{
+ 	float: left;
+ 	width: 250px;
+ 	height: 250px;
+ 	margin: 0 auto;
+ 	font-size: 1em;
+ 	padding: 20px;
+ 	color: yellow;
+ 	background-image: url('images/contact/tele.png');
+ 	background-size: cover;
+ 	background-position: center;
+ 	border-bottom-right-radius: 20%;
+ 	border-top-left-radius: 20%;
+ }
+
+ .st-comm::first-letter{
+ 	font-size: 1.5em;
+ 	color:red;
+ }
+.st-connect{
+	padding-left: 30px;
+}
+.fa.fa-facebook-square{
+	color: blue;
+	transition-duration: 1s;
+}
+
+.fa.fa-instagram {
+	margin: 0 auto;
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition-duration: 1s;
+}
+
+.fa.fa-linkedin-square{
+	color: #0e76a8;
+	transition-duration: 1s;
+}
+.fa.fa-github{
+	color: #1a1a1a;
+	transition-duration: 1s;
+}
+
+.st-nav2 ul li{
+	display: inline;
+	list-style: none;
+	padding: 60px;
+	margin: 40px 40px;
+	transition-duration: 1s;
+}
+
+.st-nav2{
+	margin-top: 150px;
+}
+
+.fa.fa-facebook-square:hover{
+	font-size: 4.2em;
+}
+.fa.fa-instagram:hover{
+	font-size: 4.2em;
+}
+.fa.fa-github:hover{
+	font-size: 4.2em;
+}
+.fa.fa-linkedin-square:hover{
+	font-size: 4.2em;
+}
+
+.st-ques{
+    font-size: 2em;
+	color: white;
+	width:700px;
+	height:300px;
+	background-color: red;
+	margin: 30px auto;
+	padding-left: 70px;
+	padding-top: 100px;
+	transition-duration: 3s;
+}
+
+.st-ques ul li{
+	display: inline;
+	list-style: none;
+}
+
+.st-whatsapp{
+padding-left: 250px;
+padding-top: 20px;
+}
+
+.fa.fa-whatsapp{
+	color: black;
+	transition-duration: 2s;
+}
+
+.msg{
+	font-size: 0.6em;
+	padding-top: 40px;
+	padding-left: 180px;
+}
+
+.fa.fa-whatsapp:hover{
+	color: green;
+}
+.st-ques:hover{
+	background-image: linear-gradient(red, yellow);
+}
+
+/*about*/
+.st-about{
+	height: 300px;
+	margin: 20px auto;
+}
+.st-about2{
+	height: 300px;
+	margin: 40px auto ;
+	
+}
+.st-about3{
+    width: 1000px;
+	height: 300px;
+	margin: 40px auto;
+    
+}
+.st-about4{
+	height: 500px;
+	margin: 40px auto;
+}
+
+.st-about p{
+	padding-left: 50px;
+	padding-top: 80px;
+	padding-bottom: 30px; 
+	font-size: 1.5em;
+    color: black;
+
+}
+.st-about2 p{
+	padding-left: 50px;
+	padding-top: 80px;
+	padding-bottom: 30px; 
+	font-size: 1.5em;
+    color: black;
+}
+.st-about3 p{
+	padding-left: 50px;
+	padding-top: 80px;
+	padding-bottom: 30px; 
+	font-size: 1.5em;
+    color: black;
+
+}
+.st-about4 p{
+	padding-left: 50px;
+	padding-top: 80px;
+	padding-bottom: 30px; 
+	font-size: 1.5em;
+    color: black;
+
+}
+
+.st-about img{
+	width: 320px;
+	height: 250px;
+	
+}
+.st-about2 img{
+	width: 250px;
+	height: 250px;
+	
+	
+}
+.st-about3 img{
+	width: 400px;
+	height: 300px;
+	
+}
+
+.st-about4 img{
+	width: 400px;
+	height: 300px;
+	
+	
+}
+
+.st-about nav{
+	color: green;
+	width: 150px;
+	font-size: 1.5em;
+	margin-left: 300px;
+	margin-top: 20px;
+	
+	background-color: red;
+	transition-duration: 1.5s;
+
+}
+.st-about nav:hover{
+	height:50px;
+	width: 180px;
+	background-image: linear-gradient(to right,red, yellow);
+	padding-left: 60px;
+	padding-top: 15px;
+	
+}
+.fa.fa-arrow-circle-right:hover{
+	font-size: 1.4em;
+}
+
+p::first-letter{
+	color: brown;
+}
+
+.st-about2 nav{
+	color: green;
+	width: 150px;
+	font-size: 1.5em;
+	margin-left: 400px;
+	margin-top: 20px;
+	
+	background-color: red;
+	transition-duration: 1.5s;
+
+}
+.st-about2 nav:hover{
+	height:50px;
+	width: 180px;
+	background-image: linear-gradient(to right,red, yellow);
+	padding-left: 60px;
+	padding-top: 15px;
+	
+}
+.st-about3 nav{
+	color: green;
+	width: 150px;
+	font-size: 1.5em;
+	margin-left: 300px;
+	margin-top: 20px;
+	
+	background-color: red;
+	transition-duration: 1.5s;
+
+}
+.st-about3 nav:hover{
+	height:50px;
+	width: 180px;
+	background-image: linear-gradient(to right,red, yellow);
+	padding-left: 60px;
+	padding-top: 15px;
+	
+}
+
+.st-about4 nav{
+	color: green;
+	width: 150px;
+	font-size: 1.5em;
+	margin-left: 500px;
+	
+	
+	background-color: red;
+	transition-duration: 1.5s;
+
+}
+.st-about4 nav:hover{
+	height:50px;
+	width: 180px;
+	background-image: linear-gradient(to right,red, yellow);
+	border-radius: 10%;
+	padding-left: 60px;
+	padding-top: 15px;
+	
+}
+
+.st-head{
+	text-align: center;
+}
